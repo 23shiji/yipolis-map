@@ -1,0 +1,239 @@
+---
+- name: 中区游艇码头
+  pos:
+    lng: -20.463258049014883
+    lat: -11.883835309195774
+  desc: map/locations/descriptions/zhong1_qu1_you2_ting3_ma3_tou2.md
+  template: transportation_facility
+  version: 0
+- name: 共和国政府大楼
+  pos:
+    lat: -17.22
+    lng: -22.079
+  desc: map/locations/descriptions/gong4_he2_guo2_zheng4_fu3_da4_lou2.md
+  template: municipal_building
+  version: 0
+- name: 城邦法院
+  pos:
+    lng: -21.932782316194107
+    lat: -18.6147741108619
+  desc: map/locations/descriptions/cheng2_bang1_fa3_yuan4.md
+  template: municipal_building
+  version: 0
+- name: 北美联邦驻驿宁大使馆
+  pos:
+    lat: -19.677
+    lng: -19.503
+  desc: map/locations/descriptions/bei3_mei3_lian2_bang1_zhu4_yi4_ning2_da4_shi3_guan3.md
+  template: office_building
+  version: 0
+- name: 宪法广场
+  pos:
+    lng: -23.106631427198465
+    lat: -18.45293175264338
+  desc: map/locations/descriptions/xian4_fa3_guang3_chang3.md
+  template: municipal_building
+  version: 0
+- name: 驿宁市政府大楼
+  pos:
+    lat: -17.642
+    lng: -21.744
+  desc: map/locations/descriptions/yi4_ning2_shi4_zheng4_fu3_da4_lou2.md
+  template: municipal_building
+  version: 0
+- name: 驿宁市民综合运动馆
+  pos:
+    lat: -15.772
+    lng: -21.516
+  desc: map/locations/descriptions/yi4_ning2_shi4_min2_zong1_he2_yun4_dong4_guan3.md
+  template: public_facility
+  version: 0
+- name: 共和国图书馆
+  pos:
+    lat: -17.054
+    lng: -19.734
+  desc: map/locations/descriptions/gong4_he2_guo2_tu2_shu1_guan3.md
+  template: municipal_building
+  version: 0
+- name: 驿宁公民论坛
+  pos:
+    lat: -16.244
+    lng: -20.506
+  desc: map/locations/descriptions/yi4_ning2_gong1_min2_lun4_tan2.md
+  template: public_facility
+  version: 0
+- name: 宪法SOHO二期
+  pos:
+    lng: -23.79624219125421
+    lat: -17.595360461390584
+  desc: map/locations/descriptions/xian4_fa3_SOHO_er4_qi1.md
+  template: huge_complex
+  version: 0
+- name: 驿宁开拓博物馆
+  pos:
+    lat: -17.633
+    lng: -20.442
+  desc: map/locations/descriptions/yi4_ning2_kai1_tuo4_bo2_wu4_guan3.md
+  template: municipal_building
+  version: 0
+- name: 以色列驻驿宁大使馆
+  pos:
+    lat: -19.124
+    lng: -19.87
+  desc: map/locations/descriptions/yi3_se4_lie4_zhu4_yi4_ning2_da4_shi3_guan3.md
+  template: office_building
+  version: 0
+- name: 英国驻驿宁大使馆
+  pos:
+    lat: -18.816
+    lng: -19.327
+  desc: map/locations/descriptions/ying1_guo2_zhu4_yi4_ning2_da4_shi3_guan3.md
+  template: office_building
+  version: 0
+- name: 驿宁市第一中学
+  pos:
+    lng: -27.19210595867372
+    lat: -17.781326097404687
+  desc: map/locations/descriptions/yi4_ning2_shi4_di4_yi1_zhong1_xue2.md
+  template: municipal_building
+  version: 0
+- name: 公民监督委员会大楼
+  pos:
+    lng: -22.432647765497336
+    lat: -16.74486863184876
+  desc: map/locations/descriptions/gong1_min2_jian1_du1_wei3_yuan2_hui4_da4_lou2.md
+  template: municipal_building
+  version: 0
+- name: 共和国中央智库及数据库集群
+  pos:
+    lng: -23.195569437770303
+    lat: -17.07619032361424
+  desc: map/locations/descriptions/gong4_he2_guo2_zhong1_yang1_zhi4_ku4_ji2_shu4_ju4_ku4_ji2_qun2.md
+  template: municipal_building
+  version: 0
+- name: 陈霓姗纪念医院
+  pos:
+    lng: -23.505257087938475
+    lat: -20.509695610381286
+  desc: map/locations/descriptions/chen2_ni2_shan1_ji4_nian4_yi1_yuan4.md
+  template: municipal_building
+  version: 0
+- name: 欧罗巴合众国驻驿宁大使馆
+  pos:
+    lat: -17.619
+    lng: -19.146
+  desc: map/locations/descriptions/ou1_luo2_ba1_he2_zhong4_guo2_zhu4_yi4_ning2_da4_shi3_guan3.md
+  template: office_building
+  version: 0
+- name: 共和国议会大楼
+  pos:
+    lat: -17.956
+    lng: -22.505
+  desc: map/locations/descriptions/gong4_he2_guo2_yi4_hui4_da4_lou2.md
+  template: municipal_building
+  version: 0
+- name: 议事厅
+  pos:
+    lat: -17.727
+    lng: -22.693
+  desc: map/locations/descriptions/yi4_shi4_ting1.md
+  template: municipal_building
+  version: 0
+- name: 土地庙
+  pos:
+    lng: -20.72541086016338
+    lat: -20.52018743992309
+  desc: map/locations/descriptions/tu3_di4_miao4.md
+  template: landmark
+  version: 0
+- name: 中华人民共和国驻驿宁大使馆
+  pos:
+    lat: -16.361
+    lng: -22.756
+  desc: map/locations/descriptions/zhong1_hua2_ren2_min2_gong4_he2_guo2_zhu4_yi4_ning2_da4_shi3_guan3.md
+  template: office_building
+  version: 0
+- name: 共和国文化艺术中心
+  pos:
+    lng: -21.215963479096587
+    lat: -18.20591477090676
+  desc: map/locations/descriptions/gong4_he2_guo2_wen2_hua4_yi4_shu4_zhong1_xin1.md
+  template: municipal_building
+  version: 0
+- name: 驿宁大球场
+  pos:
+    lng: -22.314336586299987
+    lat: -14.739909923800198
+  desc: map/locations/descriptions/yi4_ning2_da4_qiu2_chang3.md
+  template: public_facility
+  version: 0
+- name: 驿宁公民广场
+  pos:
+    lat: -16.744
+    lng: -21.042
+  desc: map/locations/descriptions/yi4_ning2_gong1_min2_guang3_chang3.md
+  template: public_facility
+  version: 0
+- name: 公民大会
+  pos:
+    lat: -18.156
+    lng: -22.308
+  desc: map/locations/descriptions/gong1_min2_da4_hui4.md
+  template: municipal_building
+  version: 0
+- name: 检察院大楼
+  pos:
+    lng: -21.693368572801546
+    lat: -18.9080166613265
+  desc: map/locations/descriptions/jian3_cha2_yuan4_da4_lou2.md
+  template: municipal_building
+  version: 0
+- name: 驿宁市公安局
+  pos:
+    lng: -24.386554541086042
+    lat: -20.56784043575776
+  desc: map/locations/descriptions/yi4_ning2_shi4_gong1_an1_ju2.md
+  template: municipal_building
+  version: 0
+- name: 执政官邸
+  pos:
+    lng: -25.15158938010572
+    lat: -9.356185116949717
+  desc: map/locations/descriptions/zhi2_zheng4_guan1_di3.md
+  template: landmark
+  version: 0
+- name: 斯拉夫共和国驻驿宁大使馆
+  pos:
+    lat: -18.412
+    lng: -20.197
+  desc: map/locations/descriptions/si1_la1_fu1_gong4_he2_guo2_zhu4_yi4_ning2_da4_shi3_guan3.md
+  template: office_building
+  version: 0
+- name: 鲲川游艇码头
+  pos:
+    lng: -28.17240356471973
+    lat: -7.821335818939147
+  desc: map/locations/descriptions/kun1_chuan1_you2_ting3_ma3_tou2.md
+  template: transportation_facility
+  version: 0
+- name: 东码头
+  pos:
+    lng: 5.817232099951951
+    lat: -16.03663889778916
+  desc: map/locations/descriptions/dong1_ma3_tou2.md
+  template: transportation_facility
+  version: 0
+- name: 宪法SOHO一期
+  pos:
+    lng: -22.4226717924075
+    lat: -19.27857097084268
+  desc: map/locations/descriptions/xian4_fa3_SOHO_yi1_qi1.md
+  template: huge_complex
+  version: 0
+- name: 西码头
+  pos:
+    lat: -11.343
+    lng: -11.726
+  desc: map/locations/descriptions/xi_ma3_tou2.md
+  template: transportation_facility
+  version: 0

@@ -1,0 +1,137 @@
+default: # 模板名
+  pin: default # 表签名 标签信息见 map/icons/index.yaml
+  tags: [标准模板]
+  zoom: # 可选
+    gte: 0.0000001
+unknown:
+  pin: unknown # 表签名 标签信息见 map/icons/index.yaml
+  tags: [未登记地点]
+  desc: map/locations/descriptions/unknown.md
+  zoom: # 可选
+    gte: 5
+public_facility:
+  pin: comm
+  tags:
+  - 公共设施
+  zoom:
+    gte: 2
+municipal_building:
+  pin: comm
+  tags:
+  - 市政建筑
+  zoom:
+    gte: 2
+landmark:
+  pin: comm
+  tags:
+  - 景点
+  zoom:
+    gte: 2
+military_facility:
+  pin: comm
+  tags:
+  - 军事设施
+  zoom:
+    gte: 2
+kiosk:
+  pin: comm
+  tags:
+  - 小店
+  zoom:
+    gte: 2
+market:
+  pin: comm
+  tags:
+  - 市场
+  zoom:
+    gte: 2
+shop:
+  pin: comm
+  tags:
+  - 商场
+  zoom:
+    gte: 2
+office_building:
+  pin: comm
+  tags:
+  - 办公楼
+  zoom:
+    gte: 2
+huge_complex:
+  pin: comm
+  tags:
+  - 大型商住综合体
+  zoom:
+    gte: 2
+single_house:
+  pin: comm
+  tags:
+  - 独栋屋
+  zoom:
+    gte: 2
+row_house:
+  pin: comm
+  tags:
+  - 连排屋
+  zoom:
+    gte: 2
+condo:
+  pin: comm
+  tags:
+  - 公寓大楼
+  zoom:
+    gte: 2
+warehouse:
+  pin: comm
+  tags:
+  - 仓库
+  zoom:
+    gte: 2
+factory:
+  pin: comm
+  tags:
+  - 工厂
+  zoom:
+    gte: 2
+farm:
+  pin: comm
+  tags:
+  - 农场
+  zoom:
+    gte: 2
+pasture:
+  pin: comm
+  tags:
+  - 牧场
+  zoom:
+    gte: 2
+fisheries:
+  pin: comm
+  tags:
+  - 渔场
+  zoom:
+    gte: 2
+transportation_facility:
+  pin: comm
+  tags:
+  - 交通设施
+  zoom:
+    gte: 2
+power_system:
+  pin: comm
+  tags:
+  - 电力系统
+  zoom:
+    gte: 2
+water_system:
+  pin: comm
+  tags:
+  - 水务系统
+  zoom:
+    gte: 2
+garbage_disposal:
+  pin: comm
+  tags:
+  - 垃圾处理
+  zoom:
+    gte: 2

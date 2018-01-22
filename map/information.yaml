@@ -1,0 +1,78 @@
+title: Yipolis Republic
+copyright: © 2018-2218 Yipolis Online 1.0 BETA
+menu:
+  - type:   user
+    name:   驿宁
+    desc:   小行星带唯一独立国家
+    face:   map/images/logo.svg
+    bg:     map/images/bg.jpg
+
+  - type:   action
+    text:   搜索
+    action: show_search_panel
+
+  - type:   action
+    text:   查看全图
+    action: default_view_point
+
+  - type:   title
+    text:   了解更多
+
+  - type:   link
+    text:   关于23世纪
+    url:    http://wiki.23shiji.net/wiki/index.php/%E9%A6%96%E9%A1%B5
+
+  - type:   link
+    text:   关于驿宁共和国
+    url:    http://wiki.23shiji.net/wiki/index.php/%E9%A9%BF%E5%AE%81%E5%85%B1%E5%92%8C%E5%9B%BD
+
+  - type:   title
+    text:   获取帮助
+
+  - type:   link
+    text:  提交反馈
+    url:    http://yipolis-republic.mikecrm.com/JId8NRh
+
+custom_elements:
+- html: '
+  <a id="logoLink" target="_blank" href="http://wiki.23shiji.net/wiki/index.php/%E9%A9%BF%E5%AE%81%E5%85%B1%E5%92%8C%E5%9B%BD">
+    <img id="logoLinkIcon" src="logo.svg"></img>
+  </a>'
+  css: '
+    a#logoLink{
+      opacity: 0.3;
+      z-index: 80;
+    }
+    a#logoLink{
+      position: fixed;
+      left: 1rem;
+      bottom: 1rem;
+    }
+    img#logoLinkIcon{
+      width: 4rem;
+      height: 5rem;
+    }
+    a#logoLink:link, a#logoLink:visited{
+      opacity: 0.3;
+    }
+    a#logoLink:hover, a#logoLink:active{
+      opacity: 1.0;
+    }
+  '
+# - html: '
+#   <a id="feedBackBtn" target="_blank" href="http://yipolis-republic.mikecrm.com/JId8NRh">
+#     <!--
+#     <i class="material-icons black-text">feedback</i>
+#     -->
+#     <span class="black-text large">提交<br/>反馈</span>
+#   </a>'
+#   css: '
+#     a#feedBackBtn{
+#       position: fixed;
+#       bottom: 6rem;
+#       line-height: 1.7rem;
+#       font-size: 1.7rem;
+#       left: 1.45rem;
+#       z-index: 90;
+#     }
+#   '

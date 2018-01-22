@@ -1,0 +1,71 @@
+name: 行政图
+display: true
+layers:
+- images:
+  - path: map/layers/layer_default/min/base.svg
+    width:  6243
+    height: 3121
+    offset:
+      x: 0
+      y: 0
+- name: 绿地
+  images:
+  - path: map/layers/layer_default/min/green.svg
+    width:  6243
+    height: 3121
+    offset:
+      x: 0
+      y: 0
+- name: 装饰性绿地
+  zoom:
+    gte: 6
+  images:
+  - path: map/layers/layer_default/min/house_green.svg
+    width:  6243
+    height: 3121
+    offset:
+      x: 0
+      y: 0
+- name: 树林
+  images:
+  - path: map/layers/layer_default/min/forest.svg
+    width:  6243
+    height: 3121
+    offset:
+      x: 0
+      y: 0
+- name: 装饰植物
+  zoom:
+    gte: 10
+  images:
+  - path: map/layers/layer_default/min/bush.svg
+    width:  6243
+    height: 3121
+    offset:
+      x: 0
+      y: 0
+- images:
+  - path: map/layers/layer_default/min/road.svg
+    width:  6243
+    height: 3121
+    offset:
+      x: 0
+      y: 0
+- name: 主要建筑
+  images:
+  - path: map/layers/layer_default/min/main.svg
+    width:  6243
+    height: 3121
+    offset:
+      x: 0
+      y: 0
+- name: 民居
+  zoom:
+    gte: 6
+  images:
+  - path: map/layers/layer_default/min/house.svg
+    width:  6243
+    height: 3121
+    offset:
+      x: 0
+      y: 0

@@ -1,0 +1,28 @@
+map:
+  radius: 12500
+  width: 6243
+  height: 3121
+  center: 
+    x: 3121
+    y: 1560
+  loc:
+    lat:
+      from:  -90
+      to:     90
+    lng:
+      from: -180
+      to:    180
+  view_zoom: 1.0
+groups:
+  - async: map/layers/main.yaml
+  - async: map/layers/aerial.yaml
+  - name: 地形图
+    display: false
+    layers:
+    - images:
+      - path: map/layers/layer_default/min/terrian.svg
+        width:  6243
+        height: 3121
+        offset:
+          x: 0
+          y: 0
