@@ -39,4 +39,4 @@ menu:
 
 plugins:
 - html:         map/plugins/logo/index.html
-  css:          map/plugins/logo/index.css
+  css:          map/plugins/logo/style.css
