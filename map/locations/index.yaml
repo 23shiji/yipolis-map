@@ -34,12 +34,26 @@
   desc: map/locations/descriptions/xian4_fa3_guang3_chang3.md
   template: municipal_building
   version: 0
+- name: 驿宁天文台
+  pos:
+    lat: -24.715
+    lng: -22.698
+  desc: map/locations/descriptions/yi4_ning2_tian1_wen2_tai2.md
+  template: landmark
+  version: 0
 - name: 驿宁市政府大楼
   pos:
     lat: -17.642
     lng: -21.744
   desc: map/locations/descriptions/yi4_ning2_shi4_zheng4_fu3_da4_lou2.md
   template: municipal_building
+  version: 0
+- name: 勤政园
+  pos:
+    lat: -15.159
+    lng: -26.663
+  desc: map/locations/descriptions/qin2_zheng4_yuan2.md
+  template: landmark
   version: 0
 - name: 驿宁市民综合运动馆
   pos:
@@ -54,6 +68,13 @@
     lng: -19.734
   desc: map/locations/descriptions/gong4_he2_guo2_tu2_shu1_guan3.md
   template: municipal_building
+  version: 0
+- name: 砥砺湖
+  pos:
+    lat: -15.528
+    lng: -27.129
+  desc: map/locations/descriptions/di3_li4_hu2.md
+  template: landmark
   version: 0
 - name: 驿宁公民论坛
   pos:
@@ -215,6 +236,13 @@
     lat: -7.821335818939147
   desc: map/locations/descriptions/kun1_chuan1_you2_ting3_ma3_tou2.md
   template: transportation_facility
+  version: 0
+- name: 五贤观
+  pos:
+    lat: -15.866
+    lng: -27.147
+  desc: map/locations/descriptions/wu3_xian2_guan1.md
+  template: landmark
   version: 0
 - name: 东码头
   pos:
