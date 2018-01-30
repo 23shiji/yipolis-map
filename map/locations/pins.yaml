@@ -21,7 +21,14 @@ comm:
     style: ''
   label:
     width: 80 # px
-    style: ""
+    style: '
+      color: white; 
+      text-shadow: 
+        +1px +1px 0 #757575, 
+        -1px -1px 0 #757575,
+        +1px -1px 0 #757575,
+        -1px +1px 0 #757575
+        ;'
 geo:
   label:
     width: 80 # px
