@@ -1,0 +1,19 @@
+a#logoLink{
+  opacity: 0.3;
+  z-index: 80;
+}
+a#logoLink{
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
+}
+img#logoLinkIcon{
+  width: 4rem;
+  height: 5rem;
+}
+a#logoLink:link, a#logoLink:visited{
+  opacity: 0.3;
+}
+a#logoLink:hover, a#logoLink:active{
+  opacity: 1.0;
+}
