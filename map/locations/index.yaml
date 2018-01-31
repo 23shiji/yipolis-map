@@ -20,6 +20,13 @@
   desc: map/locations/descriptions/cheng2_bang1_fa3_yuan4.md
   template: municipal_building
   version: 0
+- name: 驿宁足球公园
+  pos:
+    lat: -11.573
+    lng: -27.464
+  desc: map/locations/descriptions/yi4_ning2_zu2_qiu2_gong1_yuan2.md
+  template: public_facility
+  version: 0
 - name: 北美联邦驻驿宁大使馆
   pos:
     lat: -19.677
@@ -188,6 +195,13 @@
   desc: map/locations/descriptions/yi4_ning2_da4_qiu2_chang3.md
   template: public_facility
   version: 0
+- name: 鲲川湿地公园
+  pos:
+    lat: -12.427
+    lng: -26.072
+  desc: map/locations/descriptions/kun1_chuan1_shi1_di4_gong1_yuan2.md
+  template: public_facility
+  version: 0
 - name: 驿宁公民广场
   pos:
     lat: -16.744
@@ -236,6 +250,13 @@
     lat: -7.821335818939147
   desc: map/locations/descriptions/kun1_chuan1_you2_ting3_ma3_tou2.md
   template: transportation_facility
+  version: 0
+- name: 驿宁城市福利院
+  pos:
+    lat: -18.239
+    lng: -28.062
+  desc: map/locations/descriptions/yi4_ning2_cheng2_shi4_fu2_li4_yuan4.md
+  template: public_facility
   version: 0
 - name: 五贤观
   pos:
