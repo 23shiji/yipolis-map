@@ -1,4 +1,11 @@
 ---
+- name: 驿宁水上救援中心
+  pos:
+    lat: -3.446
+    lng: -32.599
+  desc: map/locations/descriptions/yi4_ning2_shui3_shang4_jiu4_yuan2_zhong1_xin1.md
+  template: municipal_building
+  version: 0
 - name: 中区游艇码头
   pos:
     lng: -20.463258049014883
@@ -13,12 +20,26 @@
   desc: map/locations/descriptions/gong4_he2_guo2_zheng4_fu3_da4_lou2.md
   template: municipal_building
   version: 0
+- name: 驿宁城市海事局
+  pos:
+    lat: -3.933
+    lng: -32.787
+  desc: map/locations/descriptions/yi4_ning2_cheng2_shi4_hai3_shi4_ju2.md
+  template: municipal_building
+  version: 0
 - name: 城邦法院
   pos:
     lng: -21.932782316194107
     lat: -18.6147741108619
   desc: map/locations/descriptions/cheng2_bang1_fa3_yuan4.md
   template: municipal_building
+  version: 0
+- name: 泪湾海上消防局码头
+  pos:
+    lat: -2.363
+    lng: -33.421
+  desc: map/locations/descriptions/lei4_wan1_hai3_shang4_xiao1_fang2_ju2_ma3_tou2.md
+  template: transportation_facility
   version: 0
 - name: 驿宁足球公园
   pos:
@@ -139,6 +160,13 @@
   desc: map/locations/descriptions/gong4_he2_guo2_zhong1_yang1_zhi4_ku4_ji2_shu4_ju4_ku4_ji2_qun2.md
   template: municipal_building
   version: 0
+- name: 泪湾海上消防局
+  pos:
+    lat: -2.804
+    lng: -33.192
+  desc: map/locations/descriptions/lei4_wan1_hai3_shang4_xiao1_fang2_ju2.md
+  template: municipal_building
+  version: 0
 - name: 陈霓姗纪念医院
   pos:
     lng: -23.505257087938475
@@ -209,12 +237,26 @@
   desc: map/locations/descriptions/yi4_ning2_gong1_min2_guang3_chang3.md
   template: public_facility
   version: 0
+- name: 驿宁水上救援中心二号码头
+  pos:
+    lat: -3.053
+    lng: -32.164
+  desc: map/locations/descriptions/yi4_ning2_shui3_shang4_jiu4_yuan2_zhong1_xin1_er4_hao4_ma3_tou2.md
+  template: transportation_facility
+  version: 0
 - name: 公民大会
   pos:
     lat: -18.156
     lng: -22.308
   desc: map/locations/descriptions/gong1_min2_da4_hui4.md
   template: municipal_building
+  version: 0
+- name: 驿宁水上救援中心一号码头
+  pos:
+    lat: -4.488
+    lng: -32.027
+  desc: map/locations/descriptions/yi4_ning2_shui3_shang4_jiu4_yuan2_zhong1_xin1_yi1_hao4_ma3_tou2.md
+  template: transportation_facility
   version: 0
 - name: 检察院大楼
   pos:
