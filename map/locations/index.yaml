@@ -13,6 +13,13 @@
   desc: map/locations/descriptions/zhong1_qu1_you2_ting3_ma3_tou2.md
   template: transportation_facility
   version: 0
+- name: 中国海军陆战队驿宁特遣营机场
+  pos:
+    lat: 7.212
+    lng: -38.934
+  desc: map/locations/descriptions/zhong1_guo2_hai3_jun1_lu4_zhan4_dui4_yi4_ning2_te4_qian3_ying2_ji1_chang3.md
+  template: military_facility
+  version: 0
 - name: 共和国政府大楼
   pos:
     lat: -17.22
@@ -75,6 +82,13 @@
     lng: -21.744
   desc: map/locations/descriptions/yi4_ning2_shi4_zheng4_fu3_da4_lou2.md
   template: municipal_building
+  version: 0
+- name: 中国海军陆战队驿宁特遣营码头
+  pos:
+    lat: 8.814
+    lng: -39.473
+  desc: map/locations/descriptions/zhong1_guo2_hai3_jun1_lu4_zhan4_dui4_yi4_ning2_te4_qian3_ying2_ma3_tou2.md
+  template: military_facility
   version: 0
 - name: 勤政园
   pos:
@@ -279,6 +293,13 @@
   desc: map/locations/descriptions/zhi2_zheng4_guan1_di3.md
   template: landmark
   version: 0
+- name: 中国海军陆战队驿宁特遣营基地
+  pos:
+    lat: 7.799
+    lng: -38.487
+  desc: map/locations/descriptions/zhong1_guo2_hai3_jun1_lu4_zhan4_dui4_yi4_ning2_te4_qian3_ying2_ji1_di4.md
+  template: military_facility
+  version: 2
 - name: 斯拉夫共和国驻驿宁大使馆
   pos:
     lat: -18.412
