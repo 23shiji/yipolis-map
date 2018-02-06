@@ -14,6 +14,10 @@ menu:
   - type:   action
     text:   查看全图
     action: default_view_point
+  
+  - type:   link
+    text:   前往火星
+    url:    https://23shiji.github.io/mars-map/
 
   - type:   title
     text:   了解更多
