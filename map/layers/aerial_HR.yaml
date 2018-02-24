@@ -1,0 +1,1206 @@
+---
+name: 卫星图(高清)
+layers:
+- zoom:
+    gte: 2
+  images:
+  - path: map/layers/aerial_HR/0-0-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2196
+      y: 1007
+  - path: map/layers/aerial_HR/1-0-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2196
+      y: 1061
+  - path: map/layers/aerial_HR/2-0-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2196
+      y: 1115
+  - path: map/layers/aerial_HR/3-0-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2196
+      y: 1169
+  - path: map/layers/aerial_HR/4-0-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2196
+      y: 1223
+  - path: map/layers/aerial_HR/5-0-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2196
+      y: 1277
+  - path: map/layers/aerial_HR/6-0-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2196
+      y: 1331
+  - path: map/layers/aerial_HR/7-0-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2196
+      y: 1385
+  - path: map/layers/aerial_HR/8-0-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2196
+      y: 1439
+  - path: map/layers/aerial_HR/9-0-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2196
+      y: 1493
+  - path: map/layers/aerial_HR/0-1-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2250
+      y: 1007
+  - path: map/layers/aerial_HR/1-1-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2250
+      y: 1061
+  - path: map/layers/aerial_HR/2-1-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2250
+      y: 1115
+  - path: map/layers/aerial_HR/3-1-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2250
+      y: 1169
+  - path: map/layers/aerial_HR/4-1-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2250
+      y: 1223
+  - path: map/layers/aerial_HR/5-1-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2250
+      y: 1277
+  - path: map/layers/aerial_HR/6-1-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2250
+      y: 1331
+  - path: map/layers/aerial_HR/7-1-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2250
+      y: 1385
+  - path: map/layers/aerial_HR/8-1-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2250
+      y: 1439
+  - path: map/layers/aerial_HR/9-1-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2250
+      y: 1493
+  - path: map/layers/aerial_HR/0-2-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2304
+      y: 1007
+  - path: map/layers/aerial_HR/1-2-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2304
+      y: 1061
+  - path: map/layers/aerial_HR/2-2-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2304
+      y: 1115
+  - path: map/layers/aerial_HR/3-2-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2304
+      y: 1169
+  - path: map/layers/aerial_HR/4-2-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2304
+      y: 1223
+  - path: map/layers/aerial_HR/5-2-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2304
+      y: 1277
+  - path: map/layers/aerial_HR/6-2-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2304
+      y: 1331
+  - path: map/layers/aerial_HR/7-2-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2304
+      y: 1385
+  - path: map/layers/aerial_HR/8-2-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2304
+      y: 1439
+  - path: map/layers/aerial_HR/9-2-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2304
+      y: 1493
+  - path: map/layers/aerial_HR/0-3-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2358
+      y: 1007
+  - path: map/layers/aerial_HR/1-3-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2358
+      y: 1061
+  - path: map/layers/aerial_HR/2-3-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2358
+      y: 1115
+  - path: map/layers/aerial_HR/3-3-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2358
+      y: 1169
+  - path: map/layers/aerial_HR/4-3-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2358
+      y: 1223
+  - path: map/layers/aerial_HR/5-3-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2358
+      y: 1277
+  - path: map/layers/aerial_HR/6-3-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2358
+      y: 1331
+  - path: map/layers/aerial_HR/7-3-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2358
+      y: 1385
+  - path: map/layers/aerial_HR/8-3-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2358
+      y: 1439
+  - path: map/layers/aerial_HR/9-3-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2358
+      y: 1493
+  - path: map/layers/aerial_HR/0-4-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2412
+      y: 1007
+  - path: map/layers/aerial_HR/1-4-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2412
+      y: 1061
+  - path: map/layers/aerial_HR/2-4-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2412
+      y: 1115
+  - path: map/layers/aerial_HR/3-4-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2412
+      y: 1169
+  - path: map/layers/aerial_HR/4-4-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2412
+      y: 1223
+  - path: map/layers/aerial_HR/5-4-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2412
+      y: 1277
+  - path: map/layers/aerial_HR/6-4-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2412
+      y: 1331
+  - path: map/layers/aerial_HR/7-4-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2412
+      y: 1385
+  - path: map/layers/aerial_HR/8-4-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2412
+      y: 1439
+  - path: map/layers/aerial_HR/9-4-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2412
+      y: 1493
+  - path: map/layers/aerial_HR/0-5-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2466
+      y: 1007
+  - path: map/layers/aerial_HR/1-5-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2466
+      y: 1061
+  - path: map/layers/aerial_HR/2-5-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2466
+      y: 1115
+  - path: map/layers/aerial_HR/3-5-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2466
+      y: 1169
+  - path: map/layers/aerial_HR/4-5-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2466
+      y: 1223
+  - path: map/layers/aerial_HR/5-5-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2466
+      y: 1277
+  - path: map/layers/aerial_HR/6-5-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2466
+      y: 1331
+  - path: map/layers/aerial_HR/7-5-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2466
+      y: 1385
+  - path: map/layers/aerial_HR/8-5-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2466
+      y: 1439
+  - path: map/layers/aerial_HR/9-5-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2466
+      y: 1493
+  - path: map/layers/aerial_HR/0-6-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2520
+      y: 1007
+  - path: map/layers/aerial_HR/1-6-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2520
+      y: 1061
+  - path: map/layers/aerial_HR/2-6-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2520
+      y: 1115
+  - path: map/layers/aerial_HR/3-6-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2520
+      y: 1169
+  - path: map/layers/aerial_HR/4-6-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2520
+      y: 1223
+  - path: map/layers/aerial_HR/5-6-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2520
+      y: 1277
+  - path: map/layers/aerial_HR/6-6-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2520
+      y: 1331
+  - path: map/layers/aerial_HR/7-6-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2520
+      y: 1385
+  - path: map/layers/aerial_HR/8-6-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2520
+      y: 1439
+  - path: map/layers/aerial_HR/9-6-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2520
+      y: 1493
+  - path: map/layers/aerial_HR/0-7-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2574
+      y: 1007
+  - path: map/layers/aerial_HR/1-7-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2574
+      y: 1061
+  - path: map/layers/aerial_HR/2-7-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2574
+      y: 1115
+  - path: map/layers/aerial_HR/3-7-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2574
+      y: 1169
+  - path: map/layers/aerial_HR/4-7-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2574
+      y: 1223
+  - path: map/layers/aerial_HR/5-7-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2574
+      y: 1277
+  - path: map/layers/aerial_HR/6-7-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2574
+      y: 1331
+  - path: map/layers/aerial_HR/7-7-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2574
+      y: 1385
+  - path: map/layers/aerial_HR/8-7-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2574
+      y: 1439
+  - path: map/layers/aerial_HR/9-7-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2574
+      y: 1493
+  - path: map/layers/aerial_HR/0-8-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2628
+      y: 1007
+  - path: map/layers/aerial_HR/1-8-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2628
+      y: 1061
+  - path: map/layers/aerial_HR/2-8-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2628
+      y: 1115
+  - path: map/layers/aerial_HR/3-8-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2628
+      y: 1169
+  - path: map/layers/aerial_HR/4-8-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2628
+      y: 1223
+  - path: map/layers/aerial_HR/5-8-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2628
+      y: 1277
+  - path: map/layers/aerial_HR/6-8-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2628
+      y: 1331
+  - path: map/layers/aerial_HR/7-8-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2628
+      y: 1385
+  - path: map/layers/aerial_HR/8-8-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2628
+      y: 1439
+  - path: map/layers/aerial_HR/9-8-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2628
+      y: 1493
+  - path: map/layers/aerial_HR/0-9-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2682
+      y: 1007
+  - path: map/layers/aerial_HR/1-9-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2682
+      y: 1061
+  - path: map/layers/aerial_HR/2-9-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2682
+      y: 1115
+  - path: map/layers/aerial_HR/3-9-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2682
+      y: 1169
+  - path: map/layers/aerial_HR/4-9-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2682
+      y: 1223
+  - path: map/layers/aerial_HR/5-9-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2682
+      y: 1277
+  - path: map/layers/aerial_HR/6-9-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2682
+      y: 1331
+  - path: map/layers/aerial_HR/7-9-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2682
+      y: 1385
+  - path: map/layers/aerial_HR/8-9-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2682
+      y: 1439
+  - path: map/layers/aerial_HR/9-9-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2682
+      y: 1493
+  - path: map/layers/aerial_HR/0-10-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2736
+      y: 1007
+  - path: map/layers/aerial_HR/1-10-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2736
+      y: 1061
+  - path: map/layers/aerial_HR/2-10-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2736
+      y: 1115
+  - path: map/layers/aerial_HR/3-10-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2736
+      y: 1169
+  - path: map/layers/aerial_HR/4-10-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2736
+      y: 1223
+  - path: map/layers/aerial_HR/5-10-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2736
+      y: 1277
+  - path: map/layers/aerial_HR/6-10-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2736
+      y: 1331
+  - path: map/layers/aerial_HR/7-10-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2736
+      y: 1385
+  - path: map/layers/aerial_HR/8-10-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2736
+      y: 1439
+  - path: map/layers/aerial_HR/9-10-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2736
+      y: 1493
+  - path: map/layers/aerial_HR/0-11-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2790
+      y: 1007
+  - path: map/layers/aerial_HR/1-11-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2790
+      y: 1061
+  - path: map/layers/aerial_HR/2-11-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2790
+      y: 1115
+  - path: map/layers/aerial_HR/3-11-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2790
+      y: 1169
+  - path: map/layers/aerial_HR/4-11-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2790
+      y: 1223
+  - path: map/layers/aerial_HR/5-11-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2790
+      y: 1277
+  - path: map/layers/aerial_HR/6-11-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2790
+      y: 1331
+  - path: map/layers/aerial_HR/7-11-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2790
+      y: 1385
+  - path: map/layers/aerial_HR/8-11-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2790
+      y: 1439
+  - path: map/layers/aerial_HR/9-11-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2790
+      y: 1493
+  - path: map/layers/aerial_HR/0-12-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2844
+      y: 1007
+  - path: map/layers/aerial_HR/1-12-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2844
+      y: 1061
+  - path: map/layers/aerial_HR/2-12-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2844
+      y: 1115
+  - path: map/layers/aerial_HR/3-12-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2844
+      y: 1169
+  - path: map/layers/aerial_HR/4-12-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2844
+      y: 1223
+  - path: map/layers/aerial_HR/5-12-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2844
+      y: 1277
+  - path: map/layers/aerial_HR/6-12-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2844
+      y: 1331
+  - path: map/layers/aerial_HR/7-12-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2844
+      y: 1385
+  - path: map/layers/aerial_HR/8-12-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2844
+      y: 1439
+  - path: map/layers/aerial_HR/9-12-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2844
+      y: 1493
+  - path: map/layers/aerial_HR/0-13-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2898
+      y: 1007
+  - path: map/layers/aerial_HR/1-13-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2898
+      y: 1061
+  - path: map/layers/aerial_HR/2-13-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2898
+      y: 1115
+  - path: map/layers/aerial_HR/3-13-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2898
+      y: 1169
+  - path: map/layers/aerial_HR/4-13-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2898
+      y: 1223
+  - path: map/layers/aerial_HR/5-13-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2898
+      y: 1277
+  - path: map/layers/aerial_HR/6-13-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2898
+      y: 1331
+  - path: map/layers/aerial_HR/7-13-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2898
+      y: 1385
+  - path: map/layers/aerial_HR/8-13-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2898
+      y: 1439
+  - path: map/layers/aerial_HR/9-13-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2898
+      y: 1493
+  - path: map/layers/aerial_HR/0-14-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2952
+      y: 1007
+  - path: map/layers/aerial_HR/1-14-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2952
+      y: 1061
+  - path: map/layers/aerial_HR/2-14-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2952
+      y: 1115
+  - path: map/layers/aerial_HR/3-14-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2952
+      y: 1169
+  - path: map/layers/aerial_HR/4-14-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2952
+      y: 1223
+  - path: map/layers/aerial_HR/5-14-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2952
+      y: 1277
+  - path: map/layers/aerial_HR/6-14-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2952
+      y: 1331
+  - path: map/layers/aerial_HR/7-14-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2952
+      y: 1385
+  - path: map/layers/aerial_HR/8-14-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2952
+      y: 1439
+  - path: map/layers/aerial_HR/9-14-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 2952
+      y: 1493
+  - path: map/layers/aerial_HR/0-15-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3006
+      y: 1007
+  - path: map/layers/aerial_HR/1-15-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3006
+      y: 1061
+  - path: map/layers/aerial_HR/2-15-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3006
+      y: 1115
+  - path: map/layers/aerial_HR/3-15-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3006
+      y: 1169
+  - path: map/layers/aerial_HR/4-15-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3006
+      y: 1223
+  - path: map/layers/aerial_HR/5-15-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3006
+      y: 1277
+  - path: map/layers/aerial_HR/6-15-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3006
+      y: 1331
+  - path: map/layers/aerial_HR/7-15-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3006
+      y: 1385
+  - path: map/layers/aerial_HR/8-15-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3006
+      y: 1439
+  - path: map/layers/aerial_HR/9-15-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3006
+      y: 1493
+  - path: map/layers/aerial_HR/0-16-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3060
+      y: 1007
+  - path: map/layers/aerial_HR/1-16-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3060
+      y: 1061
+  - path: map/layers/aerial_HR/2-16-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3060
+      y: 1115
+  - path: map/layers/aerial_HR/3-16-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3060
+      y: 1169
+  - path: map/layers/aerial_HR/4-16-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3060
+      y: 1223
+  - path: map/layers/aerial_HR/5-16-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3060
+      y: 1277
+  - path: map/layers/aerial_HR/6-16-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3060
+      y: 1331
+  - path: map/layers/aerial_HR/7-16-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3060
+      y: 1385
+  - path: map/layers/aerial_HR/8-16-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3060
+      y: 1439
+  - path: map/layers/aerial_HR/9-16-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3060
+      y: 1493
+  - path: map/layers/aerial_HR/0-17-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3114
+      y: 1007
+  - path: map/layers/aerial_HR/1-17-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3114
+      y: 1061
+  - path: map/layers/aerial_HR/2-17-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3114
+      y: 1115
+  - path: map/layers/aerial_HR/3-17-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3114
+      y: 1169
+  - path: map/layers/aerial_HR/4-17-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3114
+      y: 1223
+  - path: map/layers/aerial_HR/5-17-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3114
+      y: 1277
+  - path: map/layers/aerial_HR/6-17-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3114
+      y: 1331
+  - path: map/layers/aerial_HR/7-17-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3114
+      y: 1385
+  - path: map/layers/aerial_HR/8-17-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3114
+      y: 1439
+  - path: map/layers/aerial_HR/9-17-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3114
+      y: 1493
+  - path: map/layers/aerial_HR/0-18-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3168
+      y: 1007
+  - path: map/layers/aerial_HR/1-18-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3168
+      y: 1061
+  - path: map/layers/aerial_HR/2-18-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3168
+      y: 1115
+  - path: map/layers/aerial_HR/3-18-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3168
+      y: 1169
+  - path: map/layers/aerial_HR/4-18-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3168
+      y: 1223
+  - path: map/layers/aerial_HR/5-18-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3168
+      y: 1277
+  - path: map/layers/aerial_HR/6-18-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3168
+      y: 1331
+  - path: map/layers/aerial_HR/7-18-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3168
+      y: 1385
+  - path: map/layers/aerial_HR/8-18-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3168
+      y: 1439
+  - path: map/layers/aerial_HR/9-18-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3168
+      y: 1493
+  - path: map/layers/aerial_HR/0-19-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3222
+      y: 1007
+  - path: map/layers/aerial_HR/1-19-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3222
+      y: 1061
+  - path: map/layers/aerial_HR/2-19-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3222
+      y: 1115
+  - path: map/layers/aerial_HR/3-19-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3222
+      y: 1169
+  - path: map/layers/aerial_HR/4-19-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3222
+      y: 1223
+  - path: map/layers/aerial_HR/5-19-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3222
+      y: 1277
+  - path: map/layers/aerial_HR/6-19-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3222
+      y: 1331
+  - path: map/layers/aerial_HR/7-19-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3222
+      y: 1385
+  - path: map/layers/aerial_HR/8-19-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3222
+      y: 1439
+  - path: map/layers/aerial_HR/9-19-outputs.png
+    width: 54
+    height: 54
+    offset:
+      x: 3222
+      y: 1493

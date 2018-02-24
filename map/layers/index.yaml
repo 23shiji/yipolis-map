@@ -16,6 +16,7 @@ map:
 groups:
   - async: map/layers/main.yaml
   - async: map/layers/aerial.yaml
+  - async: map/layers/aerial_HR.yaml
   - name: 地形图
     display: false
     layers:
