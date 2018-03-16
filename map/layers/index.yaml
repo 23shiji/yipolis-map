@@ -27,3 +27,36 @@ groups:
         offset:
           x: 0
           y: 0
+  - name: 路名
+    display: true
+    layers:
+    - images:
+      - path: map/layers/layer_default/min/road_label.svg
+        width:  6243
+        height: 3121
+        offset:
+          x: 0
+          y: 0
+  
+  - name: 地名
+    display: true
+    layers:
+    - zoom:
+        lte: 6
+        gte: 1
+      images:
+      - path: map/layers/layer_default/min/area_label_small.svg
+        width:  6243
+        height: 3121
+        offset:
+          x: 0
+          y: 0
+    - zoom:
+        lte: 1
+      images:
+      - path: map/layers/layer_default/min/area_label_large.svg
+        width:  6243
+        height: 3121
+        offset:
+          x: 0
+          y: 0

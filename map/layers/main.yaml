@@ -69,3 +69,19 @@ layers:
     offset:
       x: 0
       y: 0
+- images:
+  - path: map/layers/layer_default/min/nandu_large.svg
+    width:  6243
+    height: 3121
+    offset:
+      x: 0
+      y: 0
+- zoom:
+    gte: 1.5
+  images:
+  - path: map/layers/layer_default/min/nandu_small.svg
+    width:  6243
+    height: 3121
+    offset:
+      x: 0
+      y: 0
