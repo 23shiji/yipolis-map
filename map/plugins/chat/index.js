@@ -13,17 +13,8 @@ plugin_on_init(function(store){
             lng: 0,
             lat: 0,
             messages: [],
-            timer: null
-        },
-        computed: {
-            name_content: {
-                get(){
-                    return localStorage['localnet.name_content'] || ''
-                },
-                set(ct){
-                    localStorage['localnet.name_content'] = ct
-                }
-            }
+            timer: null,
+            name_content: localStorage['localnet.name_content'] || ''
         },
         methods: {
             switch_panel(){
@@ -36,6 +27,7 @@ plugin_on_init(function(store){
                 }
                 let msg = new MapMsg()
                 let pos = new AV.GeoPoint({latitude: this.lat, longitude: this.lng})
+                localStorage['localnet.name_content'] = this.name_content
                 msg.set("nickname", this.name_content)
                 msg.set("content",  this.msg_content)
                 msg.set("position", pos)
