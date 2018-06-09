@@ -1,6 +1,6 @@
 let localnet_vm;
 plugin_on_init(function(store){
-    const POS_RADIS = 1
+    const POS_RADIS = 2
     const APP_ID = "xpTHT125IoWveEQ4cYi8qf52-MdYXbMMI"
     const CLIENT_KEY = "OnbuOgk8HfQFXNavO6JhKtha"
     AV.initialize(APP_ID, CLIENT_KEY)
