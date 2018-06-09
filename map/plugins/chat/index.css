@@ -22,11 +22,26 @@
 
 #local_net_panel{
     position: fixed;
-    top: 21rem;
+    top: 1rem;
+    left: 1rem;
     bottom: 11rem;
-    width: 40rem;
-    max-width: 90%;
     right: 1rem;
-    z-index: 100;
+    z-index: 101;
     overflow-y: scroll;
+}
+
+#localnet_msg_container{
+    height: calc(100vh - 30rem);
+    overflow: auto;
+}
+#measdist_btn, #layer-btn, #search-btn{
+    z-index: 100;
+}
+#local_net_panel > div{
+    z-index: 101;
+}
+.hide-btn{
+    position: absolute;
+    right: 0.1rem;
+    top: 0.1rem;
 }

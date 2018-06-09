@@ -2,27 +2,25 @@
     <a @click="switch_panel" id="local_net_btn" class="btn-floating btn-large waves-effect waves-light white">
         <i class="material-icons black-text">chat</i>
     </a>
-    <div id="local_net_panel" v-if="display" class="z-depth-3 white">
+    <div id="local_net_panel" v-if="display" class="z-depth-4 white">
         <div class="container">
             <div class="row">
                 <h5 class="col l12 m12 s12">本地网络</h5>
             </div>
+            <div class="row" id="localnet_msg_container" ref="message_container">
+                <!-- <div ref="message_container_inner" class="col s12 row"> -->
+                    <p v-for="m in messages">
+                        <b>{{m.nickname}}:</b>
+                        {{m.content}}
+                    </p>
+                <!-- </div> -->
+            </div>
             <div class="row">
-                <div class="input-field col s8">
+                <div class="input-field col s2">
                     <input id="nickname_input" type="text" v-model="name_content">
                     <label for="nickname_input">昵称</label>
                 </div>
-                <div class="switch col l4 m4 s4">
-                    <label>
-                        关闭
-                        <input type="checkbox" v-model="network_on">
-                        <span class="lever"></span>
-                        启动
-                    </label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s12">
+                <div class="input-field col s10">
                     <input @keydown.enter="send_local_msg" id="localnet_input" type="text" v-model="msg_content">
                     <label for="localnet_input">发送消息</label>
                 </div>
@@ -35,13 +33,16 @@
                     发送
                 </button>
             </div>
+            <!-- <span class="hide-btn">
+                <i class="material-icons small">call_made</i>
+            </span> -->
         </div>
     </div>
-    <template v-if="network_on">
+    <!-- <template v-if="network_on">
         <template v-for="m in messages">
             <div class="localnet_msg" :style=" 'left:' + m.x + 'px; top:' + m.y + 'px' ">
                 {{m.content}}
             </div>
         </template>
-    </template>
+    </template> -->
 </div>

@@ -1,5 +1,6 @@
 let localnet_vm;
 plugin_on_init(function(store){
+    const POS_RADIS = 1
     const APP_ID = "xpTHT125IoWveEQ4cYi8qf52-MdYXbMMI"
     const CLIENT_KEY = "OnbuOgk8HfQFXNavO6JhKtha"
     AV.initialize(APP_ID, CLIENT_KEY)
@@ -21,6 +22,9 @@ plugin_on_init(function(store){
                 this.display = !this.display
             },
             send_local_msg(){
+                if(!this.msg_content){
+                    return
+                }
                 if(!this.name_content){
                     alert("未填写昵称")
                     return
@@ -33,10 +37,10 @@ plugin_on_init(function(store){
                 msg.set("position", pos)
                 msg.save()
                 .then((msg) => {
-                    this.add_message({
-                        nickname: this.name_content,
-                        content: this.msg_content
-                    })
+                    // this.add_message({
+                    //     nickname: this.name_content,
+                    //     content: this.msg_content
+                    // })
                     this.msg_content = ''
                 })
                 .catch((error) => {
@@ -51,13 +55,21 @@ plugin_on_init(function(store){
                     x: Math.floor(window.innerWidth),
                     y: Math.floor(Math.random() * window.innerHeight)
                 })
+                if(this.$refs.message_container){
+                    this.$nextTick(() => {
+                        this.$refs.message_container.scrollTop =
+                            this.$refs.message_container.scrollHeight
+                            -
+                            this.$refs.message_container.clientHeight
+                    })
+                }
             },
             query_by_pos({lat, lng}){
                 lat = -lat
-                let ne = new AV.GeoPoint({latitude: lat+5, longitude: lng+5})
-                let sw = new AV.GeoPoint({latitude: lat-5, longitude: lng-5})
+                let ne = new AV.GeoPoint({latitude: lat+POS_RADIS, longitude: lng+POS_RADIS})
+                let sw = new AV.GeoPoint({latitude: lat-POS_RADIS, longitude: lng-POS_RADIS})
                 let query = new AV.Query("MapMsg")
-                query.descending("createdAt")
+                query.ascending("createdAt")
                 query.withinGeoBox("position", sw, ne)
                 query.limit(50)
                 this.lng = lng
@@ -65,6 +77,7 @@ plugin_on_init(function(store){
                 query.find()
                 .then(msgs => {
                     this.messages = []
+                    console.log("Messages:", msgs.length, lat, lng)
                     msgs.forEach(m => {
                         this.add_message({
                             nickname: m.get("nickname"),
@@ -74,6 +87,25 @@ plugin_on_init(function(store){
                 }).catch(error => {
                     console.error(error)
                 })
+            },
+            subscribe(){
+                let query = new AV.Query('MapMsg')
+                query.subscribe().then((liveQuery) => {
+                    liveQuery.on('create', (msg) => {
+                        let pos = msg.get("position")
+                        if(
+                            pos.latitude <= this.lat + POS_RADIS &&
+                            pos.latitude >= this.lat - POS_RADIS &&
+                            pos.longitude <= this.lng + POS_RADIS &&
+                            pos.longitude >= this.lng - POS_RADIS
+                        ){
+                            this.add_message({
+                                nickname: msg.get("nickname"),
+                                content: msg.get("content"),
+                            })
+                        }
+                    })
+                })
             }
         },
         created(){
@@ -81,15 +113,16 @@ plugin_on_init(function(store){
                 lat: this.lat,
                 lng: this.lng
             })
-            setInterval( () => {
-                this.messages.forEach(m => {
-                    m.x -= 4
-                    if(m.x < -500){
-                        m.x = Math.floor(window.innerWidth)
-                        m.y = Math.floor(Math.random() * window.innerHeight)
-                    }
-                })
-            }, 20)
+            this.subscribe()
+            // setInterval( () => {
+            //     this.messages.forEach(m => {
+            //         m.x -= 4
+            //         if(m.x < -500){
+            //             m.x = Math.floor(window.innerWidth)
+            //             m.y = Math.floor(Math.random() * window.innerHeight)
+            //         }
+            //     })
+            // }, 20)
         }
     })
 })
