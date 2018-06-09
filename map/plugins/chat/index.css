@@ -28,4 +28,5 @@
     max-width: 90%;
     right: 1rem;
     z-index: 100;
+    overflow-y: scroll;
 }
