@@ -30,9 +30,11 @@ menu:
     text:   关于驿宁共和国
     url:    http://wiki.23shiji.net/wiki/index.php/%E9%A9%BF%E5%AE%81%E5%85%B1%E5%92%8C%E5%9B%BD
 
-  - type:   link
+  - type:   title
     text:   移民到驿宁共和国
-    url:    https://23shiji.github.io/enter-yipolis/
+
+  - type:   title
+    text:   '591282148'
 
   - type:   title
     text:   获取帮助
