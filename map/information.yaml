@@ -30,11 +30,9 @@ menu:
     text:   关于驿宁共和国
     url:    http://wiki.23shiji.net/wiki/index.php/%E9%A9%BF%E5%AE%81%E5%85%B1%E5%92%8C%E5%9B%BD
 
-  - type:   title
+  - type:   link
     text:   移民到驿宁共和国
-
-  - type:   title
-    text:   '591282148'
+    url:    'https://jq.qq.com/?_wv=1027&k=5FGHQBa'
 
   - type:   title
     text:   获取帮助
