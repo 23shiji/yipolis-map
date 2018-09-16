@@ -46,3 +46,8 @@ menu:
 plugins:
 - html:         map/plugins/logo/index.html
   css:          map/plugins/logo/style.css
+- javascript: https://cdn.bootcss.com/vue/2.5.17-beta.0/vue.min.js
+- javascript: https://cdn1.lncld.net/static/js/3.7.2/av-live-query-min.js
+- css: map/plugins/chat/index.css
+  html: map/plugins/chat/index.html
+  javascript: map/plugins/chat/index.js
